@@ -30,7 +30,7 @@ listintruder=[]
 receiver = "suchith.ponnuru@gmail.com"
 body = "Hello there is a intruder please check the attachment and call 100"
 
-yag = yagmail.SMTP('hia87599@gmail.com', 'suchithpnvs')
+yag = yagmail.SMTP('usermailid', 'userpassword')
 
 print("[INFO] loading encodings + face detector...")
 data = pickle.loads(open("/home/pi/Documents/sfr/encodings.pickle", "rb").read())
